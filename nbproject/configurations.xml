@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>directorio.h</itemPath>
+      <itemPath>/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/documento.h</itemPath>
+      <itemPath>/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/generic.h</itemPath>
+      <itemPath>/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/list.h</itemPath>
+      <itemPath>/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/nodelist.h</itemPath>
+      <itemPath>/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/nodoTermino.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>directorio.c</itemPath>
+      <itemPath>/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/documento.c</itemPath>
+      <itemPath>/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/generic.c</itemPath>
+      <itemPath>/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/list.c</itemPath>
+      <itemPath>/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/nodelist.c</itemPath>
+      <itemPath>/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/nodoTermino.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>main.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/documento.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/documento.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/generic.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/generic.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/list.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/list.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/nodelist.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/nodelist.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/nodoTermino.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/nodoTermino.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="directorio.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="directorio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/documento.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/documento.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/generic.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/generic.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/list.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/list.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/nodelist.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/nodelist.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/nodoTermino.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/nodoTermino.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="directorio.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="directorio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
