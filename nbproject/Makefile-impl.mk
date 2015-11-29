@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=proyecto1Lenguajes
+PROJECTNAME=c_p1_tf-idf
 
 # Active Configuration
 DEFAULTCONF=Debug

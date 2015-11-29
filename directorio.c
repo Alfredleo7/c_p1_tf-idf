@@ -6,6 +6,7 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
+#include "directorio.h"
 //Declaramos los prototipos de funciones
 
 char dir[50];
