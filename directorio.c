@@ -13,7 +13,7 @@ char dir[50];
 char *newDir;
 //Declaramos los prototipos de funciones
 void llamarArchivo();
-void abrirDirectorio(char *nombre);
+void abrirDirectorio(char nombre[50]);
 
 void llamarArchivo(){
     //Limpiamos la pantalla
@@ -33,7 +33,7 @@ void llamarArchivo(){
      }
 }
 //Función que permite listar un directorio de manera recursiva
-void abrirDirectorio(char *nombre){
+void abrirDirectorio(char nombre[50]){
  
     //Declaramos variables, estructuras
      struct stat estru;
