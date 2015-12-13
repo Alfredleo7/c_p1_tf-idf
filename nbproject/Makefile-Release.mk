@@ -35,6 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/_ext/1591637995/palabra.o \
 	${OBJECTDIR}/_ext/1591637995/stem.o \
 	${OBJECTDIR}/_ext/1122234286/documento.o \
 	${OBJECTDIR}/_ext/1122234286/generic.o \
@@ -68,6 +69,11 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/c_p1_tf-idf: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/c_p1_tf-idf ${OBJECTFILES} ${LDLIBSOPTIONS}
+
+${OBJECTDIR}/_ext/1591637995/palabra.o: /home/stalyn/Documentos/ProyectoLenguajes/c_p1_tf-idf/palabra.c 
+	${MKDIR} -p ${OBJECTDIR}/_ext/1591637995
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/1591637995/palabra.o /home/stalyn/Documentos/ProyectoLenguajes/c_p1_tf-idf/palabra.c
 
 ${OBJECTDIR}/_ext/1591637995/stem.o: /home/stalyn/Documentos/ProyectoLenguajes/c_p1_tf-idf/stem.c 
 	${MKDIR} -p ${OBJECTDIR}/_ext/1591637995

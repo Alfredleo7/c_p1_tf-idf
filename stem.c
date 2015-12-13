@@ -59,6 +59,7 @@ static int EndsWithCVC( char *word );
 static int AddAnE( char *word );
 static int RemoveAnE( char *word );
 static int ReplaceEnd( char *word, RuleList rule );
+static int EndsWithVowels( char *word );
 
 #else
 
@@ -260,6 +261,21 @@ ContainsVowel( word )
 
    } /* ContainsVowel */
 
+   static int
+EndsWithVowels( word )
+   char *word;   /* in: buffer with word checked */
+   {
+
+   if ( EOS == *word )
+      return( FALSE );
+   else{
+       int tam;
+       tam = strlen(word);
+      return( IsVowel(word[tam-1]));
+        }   
+
+   } /* endsWithVowels */
+   
 /*FN**************************************************************************
 
        EndsWithCVC( word )
