@@ -13,7 +13,7 @@ void llamarArchivo(){
      //lista_directorio(argv[1]);
      //Llamamos a la función
      
-     //strcat(&dir,"/");
+     strcat(&dir,"/");
     
      abrirDirectorio(&dir);
 
