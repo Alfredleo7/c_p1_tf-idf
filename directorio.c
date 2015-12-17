@@ -12,7 +12,9 @@ void llamarArchivo(){
     
      //lista_directorio(argv[1]);
      //Llamamos a la función
-     strcat(&dir,"/");
+     
+     //strcat(&dir,"/");
+    
      abrirDirectorio(&dir);
 
      while(1){
@@ -30,16 +32,21 @@ void abrirDirectorio(char *nombre){
      struct dirent *dt;
      DIR *dire;
      char *ref;
+     char txt[4];
+     char csv[4];
+     strcpy(&txt,".txt");
+     strcpy(&csv,".csv");
 
      dire = opendir(nombre);
 
      
      printf("Abriendo el directorio %s\n",nombre);
      while((dt=readdir(dire))!=NULL){
-         strcpy(&txt,".txt");
-         strcpy(&csv,".csv");
          switch(dt->d_type){
-             case DT_REG: {ref = strchr(&dt->d_name, '.');if(!strcmp(&ref ,&txt))printf("%s\t %s es txt\n", &txt ,dt->d_name);break;}
+             case DT_REG: { ref = strchr(&dt->d_name, '.');
+                            if(!strcmp(&ref ,txt))
+                                printf("%s\t %s es txt\n", ref ,dt->d_name);
+                            break;}
              case DT_DIR: {printf("|\t%-20s|\n",dt->d_name);break;}
          }
      }
