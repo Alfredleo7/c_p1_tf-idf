@@ -12,8 +12,9 @@
 extern "C" {
 #endif
 
-char txt[4];
-char csv[4];
+
+char *txt;
+char *csv;
 char *dir;
 char *newDir;
     

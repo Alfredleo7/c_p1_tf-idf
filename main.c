@@ -2,7 +2,6 @@
 
 #include <stdlib.h>
 #include <stdio.h>
-#include "list.h"
 #include "directorio.h"
 
 //Función principal

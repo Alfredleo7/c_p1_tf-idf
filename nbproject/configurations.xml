@@ -5,7 +5,6 @@
                    displayName="Header Files"
                    projectFiles="true">
       <itemPath>directorio.h</itemPath>
-      <itemPath>/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/documento.h</itemPath>
       <itemPath>/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/generic.h</itemPath>
       <itemPath>/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/list.h</itemPath>
       <itemPath>/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/nodelist.h</itemPath>
@@ -14,7 +13,6 @@
                    displayName="Resource Files"
                    projectFiles="true">
       <itemPath>directorio.c</itemPath>
-      <itemPath>/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/documento.c</itemPath>
       <itemPath>/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/generic.c</itemPath>
       <itemPath>/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/list.c</itemPath>
       <itemPath>/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/nodelist.c</itemPath>
@@ -46,16 +44,6 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/documento.c"
-            ex="false"
-            tool="0"
-            flavor2="0">
-      </item>
-      <item path="/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/documento.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
       <item path="/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/generic.c"
             ex="false"
             tool="0"
@@ -113,16 +101,6 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/documento.c"
-            ex="false"
-            tool="0"
-            flavor2="0">
-      </item>
-      <item path="/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/documento.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
       <item path="/windows/Dropbox/Lenguajes/proyectos/proyecto1Lenguajes/generic.c"
             ex="false"
             tool="0"
