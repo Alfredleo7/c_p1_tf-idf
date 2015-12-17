@@ -12,8 +12,13 @@
 extern "C" {
 #endif
 
-
-
+char txt[4];
+char csv[4];
+char *dir;
+char *newDir;
+    
+void llamarArchivo(void);
+void abrirDirectorio(char *nombre);
 
 #ifdef	__cplusplus
 }

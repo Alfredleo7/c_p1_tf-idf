@@ -4,14 +4,15 @@
 #include <stdio.h>
 #include "list.h"
 #include "directorio.h"
- 
 
 //Función principal
- void main()
+ int main(int argc, char * argv[])
 {
      llamarArchivo();
+     return 0;
 }
  
+/*
  char** obtenerStopWords(){
      char *stopWords[] = {
          "a",
@@ -312,4 +313,5 @@
          "ya",
          "yo"    
      };
- }
+
+ }*/
